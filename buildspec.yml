@@ -16,13 +16,7 @@ phases:
       - echo Build completed on `date`
 artifacts:
   files:
-    - server/bin/*
-    - server/controllers/*
-    - server/errors/*
-    - server/models/*
-    - server/routes/*
-    - server/services/db.js
-    - server/app.js
+    - server/**/*
     - package.json
     - package-lock.json
     - config.js
