@@ -1,0 +1,26 @@
+verson: 0.1
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase...
+  build:
+    commands:
+      - echo Build started on `date`
+      - npm install
+  post_build:
+    commands:
+      - echo Build completed on `date`
+artifacts:
+  files:
+    - server/bin/*
+    - server/controllers/*
+    - server/errors/*
+    - server/models/*
+    - server/routes/*
+    - server/services/db.js
+    - server/app.js
+    - node_modules/*
