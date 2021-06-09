@@ -56,6 +56,7 @@ const queryShowTimes = async () => {
             movie_id,
             title,
             poster,
+            rating,
             timetables: [time],
           },
         ],
