@@ -9,7 +9,6 @@ const config = {
     database: env.MOOOVIE_DB_NAME,
   },
   listPerPage: env.LIST_PER_PAGE || 10,
-  port: 3030,
 };
 
 export default config;

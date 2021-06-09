@@ -17,8 +17,7 @@ export MOOOVIE_DB_PORT='5432'
 export MOOOVIE_DB_USER=<Your User Name for instance>
 export MOOOVIE_DB_PASSWORD=<Your Password for instance>
 export MOOOVIE_DB_NAME=<Your User Name for instance>
-```
-I recommend to put on `.bashrc` or `.zshrc`. 
+``` 
 
 Now copy the schema from `/server/services/mooovie-schema.sql` file 
 and paste at ElephantSQL's SQL browser.
