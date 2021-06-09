@@ -23,4 +23,7 @@ artifacts:
     - server/routes/*
     - server/services/db.js
     - server/app.js
+    - package.json
+    - package-lock.json
+    - config.js
     - node_modules/*
